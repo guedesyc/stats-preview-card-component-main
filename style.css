@@ -15,86 +15,83 @@
 
 body{
     background-color: var(--cor1);
-}
-img{
+    min-height: 100vh;
     display: flex;
-    margin: 120px;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    background-color: var(--cor2);
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0px 0px 0px 600px;
-    border-radius: 10px;
 }
+
 main{
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor2);
+    border-radius: 20px;
+    padding: 0px 0px 0px 50px;
+
+    
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    
+}
+
+main, img{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 h1{
-    display: absolute;
-    text-align: center;
-
     font-family: 'Inter', Arial, sans-serif;
+    margin-bottom: 30px;
     font-weight: 700;
-    color: var(--cor4);
-    padding: 0px;
-    margin: -500px 0px 0px -550px;
+    color:white;
 }
 
 b{
-    color: var(--cor3);
+    color:var(--cor3);
 }
 
 h2{
-    display: absolute;
-    text-align: center;
-    font-family: 'Lexend Deca', Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
+    margin-bottom: 30px;
+    font-weight: 400;
     color: var(--cor5);
     font-size: small;
-    padding: 0px;
-    margin: 70px 550px 0px 0px;
 }
 
-h3{
-    display: absolute;
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400;
-    color: var(--cor4);
-    margin: 100px 0px 0px 200px;
+.numeros{
+    font-family: 'Lexend Deca', Arial, sans-serif;
+    color:white;
+    font-size: larger;
+    display: flex;
+
 }
 
-    .segundonum{
-        display: absolute;
-        font-family: 'Inter', Arial, sans-serif;
-        font-weight: 400;
-        color: var(--cor4);
-        margin: -38px 0px 0px 400px;
-    }
-
-    .terceironum{
-        display: absolute;
-        font-family: 'Inter', Arial, sans-serif;
-        font-weight: 400;
-        color: var(--cor4);
-        margin: -38px 0px 0px 600px;
+.subinfo{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
 }
+
 h4{
     font-family: 'Lexend Deca', Arial, sans-serif;
-    color: var(--cor5);
-    font-size: 0.7rem;
-    margin: 0px 00px 0px 200px
-}
-.segundosub{
-    font-family: 'Lexend Deca', Arial, sans-serif;
-    color: var(--cor5);
-    font-size: 0.7rem;
-    margin: 0px 00px 0px 400px
+    color:var(--cor5);
+    font-size: smaller;
+
 }
 
-.terceirosub{
+.subinfo2{
     font-family: 'Lexend Deca', Arial, sans-serif;
-    color: var(--cor5);
-    font-size: 0.7rem;
-    margin: 0px 00px 0px 600px
+    color:white;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    
 }
